@@ -1,0 +1,25 @@
+$primary-color: #fa4616;
+$gray: #131c22;
+$black: #000;
+
+$theme-colors: (
+  'primary': $primary-color,
+  'gray': $gray,
+  'black': $black,
+);
+
+$display-font-sizes: (
+  1: 24px,
+  2: 22px,
+  3: 20px,
+  4: 18px,
+  5: 16px,
+  6: 14px,
+);
+
+$font-family-sans-serif: 'Roboto', sans-serif;
+
+$link-color: $primary-color;
+$link-decoration: initial;
+
+$paragraph-margin-bottom: 0;

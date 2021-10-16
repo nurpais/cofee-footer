@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+// Abstract
+@import './abstract/variables';
+
+// Bootstrap
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+.footer-info {
+  position: relative;
+  z-index: 5;
+  &::before {
+    content: '';
+    position: absolute;
+    width: 2000px;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: #000;
+    z-index: -1;
+  }
+}
+
+.link-light {
+  color: #dadada;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: #fff;
+  }
+}
